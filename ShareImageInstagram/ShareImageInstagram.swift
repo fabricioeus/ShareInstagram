@@ -40,7 +40,7 @@ class ShareImageInstagram {
           }
           DispatchQueue.main.async {
             if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url, options: nil, completionHandler: { (success) in
+                UIApplication.shared.open(url, options: [:], completionHandler: { (success) in
                     self.delegate?.success()
                 })
             } else {

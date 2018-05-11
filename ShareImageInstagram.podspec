@@ -6,7 +6,7 @@ s.ios.deployment_target = '11.3'
 s.name = "ShareImageInstagram"
 s.summary = "ShareImageInstagram lets a user share a image to instagram feed or stories."
 s.requires_arc = true
-
+s.homepage = "https://github.com/Netwolf"
 # 2
 s.version = "1.0"
 
@@ -20,15 +20,16 @@ s.author = { "Fabricio Eustaquio de Oliveira" => "eusfabricio@gmail.com" }
 s.homepage = "https://github.com/Netwolf/ShareImageInstagram"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-# s.source = { :git => "https://github.com/Netwolf/ShareImageInstagram.git", :tag => "#{s.version}"}
+# s.source = { :git => 'https://github.com/Netwolf/ShareImageInstagram.git', :tag => s.version.to_s}
+
 
 # 7
 s.framework = "UIKit"
 s.framework = "Photos"
 
 # 8
-s.source_files = "ShareImageInstagram/**/*.{swift}"
 
+s.source_files = "ShareImageInstagram/**/*.{swift}"
 # 9
 s.resources = "ShareImageInstagram/**/*.{png,jpeg,jpg,storyboard,xib}"
 end

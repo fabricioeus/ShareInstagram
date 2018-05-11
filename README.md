@@ -14,6 +14,22 @@ let share = ShareImageInstagram()
 share.postToInstagramStories(image: image, backgroundTopColorHex: backgroundTopColor, backgroundBottomColorHex: backgroundBottomColor, deepLink: "https://www.[yourdeeplink].com")
 ```
 
+## Project Details
+
+### Requirements
+* Swift 3.3
+* Xcode 9.0+
+
+### Author
+
+Fabricio Oliveira | (https://www.linkedin.com/in/fabricio-eustaquio/)
+
+
+### Contributing
+Feel free to collaborate with ideas 💭, issues ⁉️ and/or pull requests 🔃.
+If you use ShareImageInstagram in your app I'd love to hear about it and feature your animation here!
+
+
 ## License
 
 The [license](https://github.com/Netwolf/ShareImageInstagram/blob/master/License) is provided in the project folder. 

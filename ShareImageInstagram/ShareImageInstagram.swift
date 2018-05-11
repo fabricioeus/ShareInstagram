@@ -40,8 +40,9 @@ class ShareImageInstagram {
           }
           DispatchQueue.main.async {
             if UIApplication.shared.canOpenURL(url) {
-              UIApplication.shared.openURL(url)
-              self.delegate?.success()
+                UIApplication.shared.open(url, options: nil, completionHandler: { (success) in
+                    self.delegate?.success()
+                })
             } else {
               self.delegate?.error(message: "Instagram not found")
             }

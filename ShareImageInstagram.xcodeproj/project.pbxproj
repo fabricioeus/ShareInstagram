@@ -10,6 +10,7 @@
 		AEDE834D20A5DFF600824568 /* ShareImageInstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDE834320A5DFF600824568 /* ShareImageInstagram.framework */; };
 		AEDE835220A5DFF600824568 /* ShareImageInstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDE835120A5DFF600824568 /* ShareImageInstagramTests.swift */; };
 		AEDE835420A5DFF600824568 /* ShareImageInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDE834620A5DFF600824568 /* ShareImageInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEDE835F20A5E0BB00824568 /* ShareImageInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDE835E20A5E0BA00824568 /* ShareImageInstagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		AEDE834C20A5DFF600824568 /* ShareImageInstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareImageInstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDE835120A5DFF600824568 /* ShareImageInstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImageInstagramTests.swift; sourceTree = "<group>"; };
 		AEDE835320A5DFF600824568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDE835E20A5E0BA00824568 /* ShareImageInstagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareImageInstagram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		AEDE834520A5DFF600824568 /* ShareImageInstagram */ = {
 			isa = PBXGroup;
 			children = (
+				AEDE835E20A5E0BA00824568 /* ShareImageInstagram.swift */,
 				AEDE834620A5DFF600824568 /* ShareImageInstagram.h */,
 				AEDE834720A5DFF600824568 /* Info.plist */,
 			);
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					AEDE834220A5DFF600824568 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					AEDE834B20A5DFF600824568 = {
 						CreatedOnToolsVersion = 9.3;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDE835F20A5E0BB00824568 /* ShareImageInstagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +344,7 @@
 		AEDE835820A5DFF600824568 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Fabricio.ShareImageInstagram;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		AEDE835920A5DFF600824568 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		AEDE835B20A5DFF600824568 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53976F2732;
 				INFOPLIST_FILE = ShareImageInstagramTests/Info.plist;
@@ -407,6 +416,7 @@
 		AEDE835C20A5DFF600824568 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53976F2732;
 				INFOPLIST_FILE = ShareImageInstagramTests/Info.plist;

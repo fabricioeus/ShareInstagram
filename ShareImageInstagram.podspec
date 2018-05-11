@@ -19,13 +19,8 @@ s.author = { "Fabricio Eustaquio de Oliveira" => "eusfabricio@gmail.com" }
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
 s.homepage = "https://github.com/Netwolf/ShareImageInstagram"
 
-# For example,
-# s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
-
-
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 # s.source = { :git => "https://github.com/Netwolf/ShareImageInstagram.git", :tag => "#{s.version}"}
-
 
 # 7
 s.framework = "UIKit"

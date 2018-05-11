@@ -40,9 +40,15 @@ class ShareImageInstagram {
           }
           DispatchQueue.main.async {
             if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url, options: [:], completionHandler: { (success) in
+                if #available(iOS 10.0, *) {
+                    UIApplication.shared.open(url, options: [:], completionHandler: { (success) in
+                        self.delegate?.success()
+                    })
+                } else {
+                    UIApplication.shared.openURL(url)
                     self.delegate?.success()
-                })
+
+                }
             } else {
               self.delegate?.error(message: "Instagram not found")
             }
@@ -84,9 +90,14 @@ class ShareImageInstagram {
       } else {
         UIPasteboard.general.items = [pasteboardItems]
       }
-        UIApplication.shared.open(urlScheme, options: [:], completionHandler: { (success) in
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(urlScheme, options: [:], completionHandler: { (success) in
+                self.delegate?.success()
+            })
+        } else {
+            UIApplication.shared.openURL(urlScheme)
             self.delegate?.success()
-        })
+        }
       
     } else {
       delegate?.error(message: "Could not open instagram URL. Check if you have instagram installed and you configured your LSApplicationQueriesSchemes to enable instagram's url")

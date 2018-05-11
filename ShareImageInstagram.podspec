@@ -2,13 +2,13 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '11.0'
+s.ios.deployment_target = '9.0'
 s.name = "ShareImageInstagram"
 s.summary = "ShareImageInstagram lets a user share a image to instagram feed or stories."
 s.requires_arc = true
 s.homepage = "https://github.com/Netwolf"
 # 2
-s.version = "1.0"
+s.version = "1.2"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

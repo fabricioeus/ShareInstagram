@@ -9,11 +9,10 @@ pod 'ShareImageInstagram'
 
 ## Example
 
- let share = ShareImageInstagram.init()
-  share.postToInstagramStories(image: image, backgroundTopColorHex: backgroundTopColor, backgroundBottomColorHex: backgroundBottomColor, deepLink: "https://www.[yourdeeplink].com")
-
-
-
+```swift
+let share = ShareImageInstagram()
+share.postToInstagramStories(image: image, backgroundTopColorHex: backgroundTopColor, backgroundBottomColorHex: backgroundBottomColor, deepLink: "https://www.[yourdeeplink].com")
+```
 
 ## License
 

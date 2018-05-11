@@ -84,8 +84,9 @@ class ShareImageInstagram {
       } else {
         UIPasteboard.general.items = [pasteboardItems]
       }
-      UIApplication.shared.openURL(urlScheme)
-      delegate?.success()
+        UIApplication.shared.open(urlScheme, options: [:], completionHandler: { (success) in
+            self.delegate?.success()
+        })
       
     } else {
       delegate?.error(message: "Could not open instagram URL. Check if you have instagram installed and you configured your LSApplicationQueriesSchemes to enable instagram's url")

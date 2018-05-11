@@ -8,7 +8,7 @@ s.summary = "ShareImageInstagram lets a user share a image to instagram feed or 
 s.requires_arc = true
 s.homepage = "https://github.com/Netwolf"
 # 2
-s.version = "1.0"
+s.version = "1.0.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

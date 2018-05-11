@@ -8,7 +8,7 @@ s.summary = "ShareImageInstagram lets a user share a image to instagram feed or 
 s.requires_arc = true
 s.homepage = "https://github.com/Netwolf"
 # 2
-s.version = "1.2"
+s.version = "1.4"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -27,8 +27,8 @@ s.framework = "UIKit"
 s.framework = "Photos"
 
 # 8
-s.source_files = "ShareImageInstagram/**/*.{swift}"
+s.source_files = "ShareImageInstagram/*.{swift}"
 
 # 9
-# s.resources = "ShareImageInstagram/**/*.{png,jpeg,jpg,storyboard,xib}"
+# s.resources = "ShareImageInstagram/*.{png,jpeg,jpg,storyboard,xib}"
 end

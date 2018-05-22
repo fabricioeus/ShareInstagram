@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEDE834D20A5DFF600824568 /* ShareImageInstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDE834320A5DFF600824568 /* ShareImageInstagram.framework */; };
-		AEDE835220A5DFF600824568 /* ShareImageInstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDE835120A5DFF600824568 /* ShareImageInstagramTests.swift */; };
-		AEDE835420A5DFF600824568 /* ShareImageInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDE834620A5DFF600824568 /* ShareImageInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEDE835F20A5E0BB00824568 /* ShareImageInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDE835E20A5E0BA00824568 /* ShareImageInstagram.swift */; };
+		AEDE834D20A5DFF600824568 /* ShareInstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDE834320A5DFF600824568 /* ShareInstagram.framework */; };
+		AEDE835220A5DFF600824568 /* ShareInstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDE835120A5DFF600824568 /* ShareInstagramTests.swift */; };
+		AEDE835420A5DFF600824568 /* ShareInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDE834620A5DFF600824568 /* ShareInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEDE835F20A5E0BB00824568 /* ShareInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDE835E20A5E0BA00824568 /* ShareInstagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,13 +24,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AEDE834320A5DFF600824568 /* ShareImageInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareImageInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEDE834620A5DFF600824568 /* ShareImageInstagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareImageInstagram.h; sourceTree = "<group>"; };
+		AEDE834320A5DFF600824568 /* ShareInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDE834620A5DFF600824568 /* ShareInstagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareInstagram.h; sourceTree = "<group>"; };
 		AEDE834720A5DFF600824568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEDE834C20A5DFF600824568 /* ShareImageInstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareImageInstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEDE835120A5DFF600824568 /* ShareImageInstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImageInstagramTests.swift; sourceTree = "<group>"; };
+		AEDE834C20A5DFF600824568 /* ShareInstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareInstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDE835120A5DFF600824568 /* ShareInstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareInstagramTests.swift; sourceTree = "<group>"; };
 		AEDE835320A5DFF600824568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEDE835E20A5E0BA00824568 /* ShareImageInstagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareImageInstagram.swift; sourceTree = "<group>"; };
+		AEDE835E20A5E0BA00824568 /* ShareInstagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareInstagram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDE834D20A5DFF600824568 /* ShareImageInstagram.framework in Frameworks */,
+				AEDE834D20A5DFF600824568 /* ShareInstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +55,8 @@
 		AEDE833920A5DFF600824568 = {
 			isa = PBXGroup;
 			children = (
-				AEDE834520A5DFF600824568 /* ShareImageInstagram */,
-				AEDE835020A5DFF600824568 /* ShareImageInstagramTests */,
+				AEDE834520A5DFF600824568 /* ShareInstagram */,
+				AEDE835020A5DFF600824568 /* ShareInstagramTests */,
 				AEDE834420A5DFF600824568 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,29 +64,29 @@
 		AEDE834420A5DFF600824568 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEDE834320A5DFF600824568 /* ShareImageInstagram.framework */,
-				AEDE834C20A5DFF600824568 /* ShareImageInstagramTests.xctest */,
+				AEDE834320A5DFF600824568 /* ShareInstagram.framework */,
+				AEDE834C20A5DFF600824568 /* ShareInstagramTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AEDE834520A5DFF600824568 /* ShareImageInstagram */ = {
+		AEDE834520A5DFF600824568 /* ShareInstagram */ = {
 			isa = PBXGroup;
 			children = (
-				AEDE835E20A5E0BA00824568 /* ShareImageInstagram.swift */,
-				AEDE834620A5DFF600824568 /* ShareImageInstagram.h */,
+				AEDE835E20A5E0BA00824568 /* ShareInstagram.swift */,
+				AEDE834620A5DFF600824568 /* ShareInstagram.h */,
 				AEDE834720A5DFF600824568 /* Info.plist */,
 			);
-			path = ShareImageInstagram;
+			path = ShareInstagram;
 			sourceTree = "<group>";
 		};
-		AEDE835020A5DFF600824568 /* ShareImageInstagramTests */ = {
+		AEDE835020A5DFF600824568 /* ShareInstagramTests */ = {
 			isa = PBXGroup;
 			children = (
-				AEDE835120A5DFF600824568 /* ShareImageInstagramTests.swift */,
+				AEDE835120A5DFF600824568 /* ShareInstagramTests.swift */,
 				AEDE835320A5DFF600824568 /* Info.plist */,
 			);
-			path = ShareImageInstagramTests;
+			path = ShareInstagramTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,16 +96,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDE835420A5DFF600824568 /* ShareImageInstagram.h in Headers */,
+				AEDE835420A5DFF600824568 /* ShareInstagram.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AEDE834220A5DFF600824568 /* ShareImageInstagram */ = {
+		AEDE834220A5DFF600824568 /* ShareInstagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEDE835720A5DFF600824568 /* Build configuration list for PBXNativeTarget "ShareImageInstagram" */;
+			buildConfigurationList = AEDE835720A5DFF600824568 /* Build configuration list for PBXNativeTarget "ShareInstagram" */;
 			buildPhases = (
 				AEDE833E20A5DFF600824568 /* Sources */,
 				AEDE833F20A5DFF600824568 /* Frameworks */,
@@ -116,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = ShareImageInstagram;
+			name = ShareInstagram;
 			productName = ShareImageInstagram;
-			productReference = AEDE834320A5DFF600824568 /* ShareImageInstagram.framework */;
+			productReference = AEDE834320A5DFF600824568 /* ShareInstagram.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AEDE834B20A5DFF600824568 /* ShareImageInstagramTests */ = {
+		AEDE834B20A5DFF600824568 /* ShareInstagramTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEDE835A20A5DFF600824568 /* Build configuration list for PBXNativeTarget "ShareImageInstagramTests" */;
+			buildConfigurationList = AEDE835A20A5DFF600824568 /* Build configuration list for PBXNativeTarget "ShareInstagramTests" */;
 			buildPhases = (
 				AEDE834820A5DFF600824568 /* Sources */,
 				AEDE834920A5DFF600824568 /* Frameworks */,
@@ -134,9 +134,9 @@
 			dependencies = (
 				AEDE834F20A5DFF600824568 /* PBXTargetDependency */,
 			);
-			name = ShareImageInstagramTests;
+			name = ShareInstagramTests;
 			productName = ShareImageInstagramTests;
-			productReference = AEDE834C20A5DFF600824568 /* ShareImageInstagramTests.xctest */;
+			productReference = AEDE834C20A5DFF600824568 /* ShareInstagramTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AEDE833D20A5DFF600824568 /* Build configuration list for PBXProject "ShareImageInstagram" */;
+			buildConfigurationList = AEDE833D20A5DFF600824568 /* Build configuration list for PBXProject "ShareInstagram" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEDE834220A5DFF600824568 /* ShareImageInstagram */,
-				AEDE834B20A5DFF600824568 /* ShareImageInstagramTests */,
+				AEDE834220A5DFF600824568 /* ShareInstagram */,
+				AEDE834B20A5DFF600824568 /* ShareInstagramTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDE835F20A5E0BB00824568 /* ShareImageInstagram.swift in Sources */,
+				AEDE835F20A5E0BB00824568 /* ShareInstagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDE835220A5DFF600824568 /* ShareImageInstagramTests.swift in Sources */,
+				AEDE835220A5DFF600824568 /* ShareInstagramTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 /* Begin PBXTargetDependency section */
 		AEDE834F20A5DFF600824568 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AEDE834220A5DFF600824568 /* ShareImageInstagram */;
+			target = AEDE834220A5DFF600824568 /* ShareInstagram */;
 			targetProxy = AEDE834E20A5DFF600824568 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -352,7 +352,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ShareImageInstagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShareInstagram/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -379,7 +379,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ShareImageInstagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShareInstagram/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AEDE833D20A5DFF600824568 /* Build configuration list for PBXProject "ShareImageInstagram" */ = {
+		AEDE833D20A5DFF600824568 /* Build configuration list for PBXProject "ShareInstagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEDE835520A5DFF600824568 /* Debug */,
@@ -444,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEDE835720A5DFF600824568 /* Build configuration list for PBXNativeTarget "ShareImageInstagram" */ = {
+		AEDE835720A5DFF600824568 /* Build configuration list for PBXNativeTarget "ShareInstagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEDE835820A5DFF600824568 /* Debug */,
@@ -453,7 +453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEDE835A20A5DFF600824568 /* Build configuration list for PBXNativeTarget "ShareImageInstagramTests" */ = {
+		AEDE835A20A5DFF600824568 /* Build configuration list for PBXNativeTarget "ShareInstagramTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEDE835B20A5DFF600824568 /* Debug */,

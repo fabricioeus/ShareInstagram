@@ -11,14 +11,14 @@ pod 'ShareInstagram'
 
 ```swift
 let share = ShareInstagram()
-share.postToInstagramStories(image: image, backgroundTopColorHex: backgroundTopColor, backgroundBottomColorHex: backgroundBottomColor, deepLink: "https://www.[yourdeeplink].com")
+share.postToStories(image: image, backgroundTopColorHex: backgroundTopColor, backgroundBottomColorHex: backgroundBottomColor, deepLink: "https://www.[yourdeeplink].com")
 ```
 
 ## Project Details
 
 ### Requirements
-* Swift 3.3
-* Xcode 9.0+
+* Swift 5
+* Xcode 11.0+
 
 ### Author
 
